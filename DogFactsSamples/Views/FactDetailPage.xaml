@@ -5,7 +5,7 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Back" Clicked="FactPopupClose"></Button>
+            <Button Text="Back" Clicked="FactPopupClose" BackgroundColor="Red" TextColor="White"></Button>
             <StackLayout Orientation="Vertical" Margin="10">
                 <Label x:Name="shortFact" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
                 <BoxView 
