@@ -19,7 +19,7 @@ namespace DogFactsSamples.Data
 
         public FactDataDatabase()
         {
-            
+            InitializeAsync().SafeFireAndForget(false);
         }
 
         async Task InitializeAsync()
